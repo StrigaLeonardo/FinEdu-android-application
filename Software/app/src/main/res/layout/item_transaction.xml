@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Datum"
+                android:textSize="12sp"
+                android:textColor="@color/secondary_text"/>
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.07.2025"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Količina"
+                android:textSize="12sp"
+                android:textColor="@color/secondary_text"/>
+            <TextView
+                android:id="@+id/tvQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.5"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="end">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cijena"
+                android:textSize="12sp"
+                android:textColor="@color/secondary_text"/>
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$32,000"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Prikaz tipa transakcije (kupnja/prodaja) -->
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kupnja"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:paddingStart="8dp"
+            android:textColor="@color/gain_green"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <!-- Your custom theme -->
+    <style name="Theme.FinEdu" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/login_background_blue</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/button_blue</item>
+        <!-- Add more colors as needed -->
+    </style>
+</resources>

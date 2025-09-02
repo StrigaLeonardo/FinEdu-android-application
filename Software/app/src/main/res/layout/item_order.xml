@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@drawable/position_item_bg"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvOrderSymbol"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="BTCUSDT"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvOrderPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Cijena: 107000"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvOrderQuantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Količina: 0.05"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:gravity="end"/>
+
+    <ImageButton
+        android:id="@+id/btnCancelOrder"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_close"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    app:tint="@android:color/white"
+    android:contentDescription="Otkaži nalog"/>
+</LinearLayout>

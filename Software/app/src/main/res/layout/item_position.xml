@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@drawable/position_item_bg">
+
+    <TextView
+        android:id="@+id/tvPositionSymbol"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="BTCUSDT"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvPositionEntry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Entry: 62000"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvPositionQty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Qty: 0.08"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvPositionPnl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="+123.45 $ | +2.3%"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:gravity="end"/>
+</LinearLayout>

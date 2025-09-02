@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_theme_background"
+    android:paddingTop="32dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:fitsSystemWindows="true">
+
+    <!-- Naslov -->
+    <TextView
+        android:id="@+id/tvPortfolioTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Portfolio"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <!-- Lista asseta -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAssets"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"/>
+</LinearLayout>

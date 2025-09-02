@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="login_background_blue">#347aeb</color> <!-- Material Blue 700 -->
+    <color name="textbox_white">#F5F7FA</color>         <!-- Soft white -->
+    <color name="button_blue">#7d9cdb</color>          <!-- Material Blue 500 -->
+    <color name="button_text">#FFFFFF</color>
+    <color name="textbox_hint">#90A4AE</color>         <!-- Bluish gray for hint -->
+
+
+    <color name="dark_theme_background">#1A1A1E</color>
+    <color name="card_background">#2D2D32</color>
+    <color name="primary_text">#FFFFFF</color>
+    <color name="primary_text_black">#000000</color>
+    <color name="secondary_text">#A0A0A0</color>
+    <color name="primary_color">#4CAF50</color>  <!-- Green for trading actions -->
+    <color name="secondary_color">#2196F3</color> <!-- Blue for educational elements -->
+    <color name="gain_green">#4CAF50</color>
+    <color name="loss_red">#F44336</color>
+    <color name="neutral">#B0B0B0</color>
+
+</resources>

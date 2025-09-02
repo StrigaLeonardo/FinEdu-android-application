@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background_blue"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/finedu" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_textbox"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/textbox_hint"
+        android:paddingStart="24dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_textbox"
+        android:hint="Lozinka"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/textbox_hint"
+        android:paddingStart="24dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_textbox"
+        android:hint="Potvrdi lozinku"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/textbox_hint"
+        android:paddingStart="24dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_button"
+        android:text="Registriraj se"
+        android:textColor="@color/button_text"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+</LinearLayout>

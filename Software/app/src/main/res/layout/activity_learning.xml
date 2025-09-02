@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_theme_background">
+
+
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="320dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/finedu"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tvModuleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:paddingTop="100dp"
+        android:paddingBottom="8dp"
+        android:text="Naslov modula"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- ViewPager za prikaz slajdova -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnContinueLater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nastavite kasnije..."
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Progress bar za napredak -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:progressTint="@color/gain_green"/>
+</LinearLayout>

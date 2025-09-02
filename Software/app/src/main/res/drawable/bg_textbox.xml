@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/textbox_white"/>
+    <corners android:radius="16dp"/>
+    <!-- No <padding> tag here -->
+</shape>

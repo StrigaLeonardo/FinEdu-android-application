@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "146345063417",
+    "project_id": "finedu-ba373",
+    "storage_bucket": "finedu-ba373.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146345063417:android:314ff474004b38851b0328",
+        "android_client_info": {
+          "package_name": "com.example.finedu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1cW3ewu4ff4GaN5BepsLJ-0ure8lbXhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

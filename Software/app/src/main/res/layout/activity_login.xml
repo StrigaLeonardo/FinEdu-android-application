@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background_blue"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/finedu" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_textbox"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/textbox_hint"
+        android:paddingStart="24dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_textbox"
+        android:hint="Lozinka"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/textbox_hint"
+        android:paddingStart="24dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Forgot password text -->
+    <TextView
+        android:id="@+id/textForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zaboravili ste lozinku?"
+        android:textColor="@color/button_blue"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_gravity="end"
+        android:paddingEnd="4dp"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        />
+
+
+    <!-- Login button -->
+
+    <CheckBox
+        android:id="@+id/checkboxRememberMe"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Zapamti me"
+        android:textColor="@color/button_text" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_button"
+        android:text="Prijavi se"
+        android:textColor="@color/button_text"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Register button -->
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_button"
+        android:text="Registriraj se"
+        android:textColor="@color/button_text"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+</LinearLayout>
