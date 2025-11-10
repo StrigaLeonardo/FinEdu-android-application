@@ -1,5 +1,3 @@
-# Inicijalne upute za prijavu projekta iz Razvoja mobilnih aplikacija i igara
-
 # FinEdu
 
 ## Opis domene
